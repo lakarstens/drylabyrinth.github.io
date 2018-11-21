@@ -19,10 +19,10 @@ people:
 ---
 {% include feature_row %}
 
-<a name="about"></a>
+<a name="about">
 {% include feature_row id="intro" type = "center" %}
 
-<a name="people"></a>
+<a name="people">
 
 {% include feature_row id= "people" type = "center" %}
 {% assign sorted_people = site.people | sort: 'last_name' %}
@@ -33,7 +33,7 @@ people:
 {% endfor %}
 </div>
 
-<a name="events"></a>
+<a name="events">
 {% include feature_row id="events" type = "center" %}
 
 {% assign sorted_events = site.events | sort: 'date' %}
