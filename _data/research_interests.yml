@@ -28,3 +28,5 @@
   tag: "ontology"
 - name: "Biocuration"
   tag: "biocuration"
+- name: "Neuroimaging"
+  tag: "neuroimaging"
